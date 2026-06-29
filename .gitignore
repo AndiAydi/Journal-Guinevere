@@ -1,11 +1,46 @@
-node_modules/
-.venv/
+```
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.ENV.local
 .env
 .env.local
-.env.*.local
+.env.*
+.env.local.*
+
+# Build and distribution artifacts
 build/
 dist/
+*.egg-info/
+*.so
+*.dylib
+*.dll
+
+# Testing
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.hypothesis/
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS
 .DS_Store
-.vercel
+Thumbs.db
+
+# Logs
+*.log
+```
