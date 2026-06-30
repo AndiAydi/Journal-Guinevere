@@ -1,1 +1,0 @@
-# emergentintegrations namespace package
